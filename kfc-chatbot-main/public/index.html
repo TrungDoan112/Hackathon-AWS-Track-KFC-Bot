@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <title>KFC Order Liveboard</title>
+    <link rel="stylesheet" href="/dashboard.css">
+  </head>
+  <body>
+    <div class="brand-stripes" aria-hidden="true"><span></span><span></span><span></span></div>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow" data-i18n="app.eyebrow">KFC Vietnam · Conversational Ordering</p>
+          <h1 data-i18n="app.title">Order Liveboard</h1>
+          <p class="subtitle" data-i18n="app.subtitle">Theo dõi giỏ hàng, đơn mới và hoạt động của AI theo thời gian gần thực.</p>
+        </div>
+        <div class="live-controls">
+          <div class="connection" id="connectionState" data-state="loading">
+            <span class="connection-dot"></span>
+            <span id="connectionText">Đang kết nối</span>
+          </div>
+          <label class="session-picker">
+            <span data-i18n="session.label">Phiên demo</span>
+            <select id="sessionSelect" data-i18n-aria-label="session.selectAria" aria-label="Chọn phiên demo">
+              <option value="" data-i18n="session.none">Chưa có phiên</option>
+            </select>
+          </label>
+          <button class="button button-ghost" id="langToggle" type="button" data-i18n="lang.toggleLabel" data-i18n-aria-label="lang.toggleAria" aria-label="Chuyển sang tiếng Anh">EN</button>
+          <button class="button button-ghost" id="resetButton" type="button" data-i18n="reset.button">Reset phiên</button>
+        </div>
+      </header>
+
+      <section class="status-line" aria-live="polite">
+        <span id="lastUpdated">Chưa có dữ liệu</span>
+        <span class="source-pill" id="sourceInfo">Nguồn local đang khởi tạo</span>
+      </section>
+
+      <section class="metrics" data-i18n-aria-label="metrics.sectionAria" aria-label="Chỉ số tổng quan">
+        <article class="metric-card metric-red">
+          <span class="metric-label" data-i18n="metrics.newOrders.label">Đơn mới · toàn demo</span>
+          <strong id="metricOrders">0</strong>
+          <small data-i18n="metrics.newOrders.hint">Đơn đã được agent chốt</small>
+        </article>
+        <article class="metric-card">
+          <span class="metric-label" data-i18n="metrics.revenue.label">Doanh thu đã chốt</span>
+          <strong id="metricRevenue">0 ₫</strong>
+          <small data-i18n="metrics.revenue.hint">Tổng tiền sau giảm giá</small>
+        </article>
+        <article class="metric-card">
+          <span class="metric-label" data-i18n="metrics.carts.label">Giỏ đang xử lý</span>
+          <strong id="metricCarts">0</strong>
+          <small data-i18n="metrics.carts.hint">Đang tư vấn hoặc sẵn sàng chốt</small>
+        </article>
+        <article class="metric-card">
+          <span class="metric-label" data-i18n="metrics.discount.label">Giảm giá trên giỏ</span>
+          <strong id="metricDiscount">0 ₫</strong>
+          <small data-i18n="metrics.discount.hint">Voucher đã áp dụng hiện tại</small>
+        </article>
+      </section>
+
+      <section class="dashboard-grid">
+        <article class="panel cart-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="panel-kicker" data-i18n="cart.kicker">Phiên đang chọn</p>
+              <h2 data-i18n="cart.title">Giỏ hàng hiện tại</h2>
+            </div>
+            <span class="status-badge status-empty" id="cartStatus">Chưa có giỏ</span>
+          </div>
+          <div id="cartContent" class="empty-state">
+            <span class="empty-icon">🍗</span>
+            <p data-i18n="cart.empty">Gửi tin nhắn vào API để bắt đầu một phiên đặt món.</p>
+          </div>
+        </article>
+
+        <article class="panel customer-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="panel-kicker" data-i18n="customer.kicker">System Integration</p>
+              <h2 data-i18n="customer.title">Thành viên & ưu đãi</h2>
+            </div>
+          </div>
+          <div id="customerContent" class="empty-state compact">
+            <span class="empty-icon">★</span>
+            <p data-i18n="customer.empty">Chưa tra cứu thành viên hoặc voucher.</p>
+          </div>
+        </article>
+
+        <article class="panel orders-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="panel-kicker" data-i18n="orders.kicker">Kitchen Queue</p>
+              <h2 data-i18n="orders.title">Đơn hàng mới</h2>
+            </div>
+            <span class="panel-count" id="ordersCount">0 đơn</span>
+          </div>
+          <div id="ordersContent" class="empty-state compact">
+            <span class="empty-icon">🧾</span>
+            <p data-i18n="orders.empty">Đơn vừa chốt sẽ xuất hiện ở đây.</p>
+          </div>
+        </article>
+
+        <article class="panel activity-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="panel-kicker" data-i18n="activity.kicker">Agent Activity</p>
+              <h2 data-i18n="activity.title">Dòng sự kiện</h2>
+            </div>
+          </div>
+          <div id="activityContent" class="empty-state compact">
+            <p data-i18n="activity.empty">Chưa có hoạt động trong phiên.</p>
+          </div>
+        </article>
+
+        <article class="panel conversation-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="panel-kicker" data-i18n="conversation.kicker">Conversation</p>
+              <h2 data-i18n="conversation.title">Hội thoại gần nhất</h2>
+            </div>
+            <div class="control-actions">
+              <span class="status-badge status-empty" id="controlModeBadge" data-i18n="handoff.controlBadgeBot">Bot đang trả lời</span>
+              <button class="button button-ghost" id="takeOverButton" type="button" data-i18n="handoff.takeOver">Tiếp quản</button>
+              <button class="button button-ghost" id="handBackButton" type="button" hidden data-i18n="handoff.handBack">Trả lại cho bot</button>
+            </div>
+          </div>
+          <div id="messagesContent" class="empty-state compact">
+            <p data-i18n="conversation.empty">Transcript local sẽ hiển thị tại đây.</p>
+          </div>
+          <form class="composer" id="composerForm" hidden>
+            <input
+              type="text"
+              id="composerInput"
+              maxlength="4000"
+              autocomplete="off"
+              placeholder="Nhập tin nhắn gửi khách…"
+              data-i18n-placeholder="handoff.composerPlaceholder"
+              data-i18n-aria-label="handoff.composerAria"
+              aria-label="Tin nhắn gửi khách"
+            >
+            <button class="button button-primary" id="composerSend" type="submit" data-i18n="handoff.send">Gửi</button>
+          </form>
+          <p class="composer-hint" id="composerHint" hidden data-i18n="handoff.noZaloChat">
+            Phiên này chưa có địa chỉ Zalo trên hồ sơ nên chưa thể gửi tin nhắn trực tiếp.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="/dashboard.js" type="module"></script>
+  </body>
+</html>
+

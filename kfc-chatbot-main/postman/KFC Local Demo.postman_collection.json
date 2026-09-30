@@ -1,0 +1,117 @@
+{
+  "info": {
+    "name": "KFC Local Agent Demo",
+    "description": "Các request SSE cho ba luồng hackathon. Chạy npm start trước khi Send.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3000"
+    }
+  ],
+  "item": [
+    {
+      "name": "0 - Health",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/health"
+      }
+    },
+    {
+      "name": "1.1 - Happy Path - Xem menu",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" },
+          { "key": "Accept", "value": "text/event-stream" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"sessionId\": \"happy-demo\",\n  \"userId\": \"customer-001\",\n  \"message\": \"Hello, cho mình xem menu gà rán hôm nay.\"\n}",
+          "options": { "raw": { "language": "json" } }
+        },
+        "url": "{{baseUrl}}/api/chat"
+      }
+    },
+    {
+      "name": "1.2 - Happy Path - Chốt đơn",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" },
+          { "key": "Accept", "value": "text/event-stream" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"sessionId\": \"happy-demo\",\n  \"userId\": \"customer-001\",\n  \"message\": \"Lấy mình 1 combo Gà Rán Vui Vẻ, giao đến 123 Nguyễn Văn Linh.\"\n}",
+          "options": { "raw": { "language": "json" } }
+        },
+        "url": "{{baseUrl}}/api/chat"
+      }
+    },
+    {
+      "name": "2 - Messy Order",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" },
+          { "key": "Accept", "value": "text/event-stream" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"sessionId\": \"messy-demo\",\n  \"userId\": \"customer-002\",\n  \"message\": \"Cho anh 2 miếng gà cay... à khoan, đổi thành 1 cay 1 không cay đi. Thêm 1 khoai tây chiên size L, nhớ bỏ ít đá trong ly pepsi nha.\"\n}",
+          "options": { "raw": { "language": "json" } }
+        },
+        "url": "{{baseUrl}}/api/chat"
+      }
+    },
+    {
+      "name": "3.1 - Integration - Chuẩn bị giỏ",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" },
+          { "key": "Accept", "value": "text/event-stream" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"sessionId\": \"integration-demo\",\n  \"userId\": \"customer-003\",\n  \"message\": \"Thêm 1 Combo Nhóm 2 Vui Vẻ vào giỏ, mình chưa chốt đơn.\"\n}",
+          "options": { "raw": { "language": "json" } }
+        },
+        "url": "{{baseUrl}}/api/chat"
+      }
+    },
+    {
+      "name": "3.2 - Integration - Loyalty & Voucher",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" },
+          { "key": "Accept", "value": "text/event-stream" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"sessionId\": \"integration-demo\",\n  \"userId\": \"customer-003\",\n  \"message\": \"Kiểm tra điểm thành viên số 0901234567 giúp mình. Đơn này xài mã KFC50K được không?\"\n}",
+          "options": { "raw": { "language": "json" } }
+        },
+        "url": "{{baseUrl}}/api/chat"
+      }
+    },
+    {
+      "name": "9 - Reset toàn bộ demo",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": { "raw": { "language": "json" } }
+        },
+        "url": "{{baseUrl}}/api/demo/reset"
+      }
+    }
+  ]
+}

@@ -1,0 +1,942 @@
+[
+  {
+    "item_id": "kfc-2945",
+    "name": "Xô Zòn Zã 159K",
+    "category": "uu-dai",
+    "price": 159000,
+    "original_price": 179000,
+    "description": "Xô 5 Miếng Gà (Giá Ưu Đãi)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/FS-BUCKET5COB.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2946",
+    "name": "Xô Zui Zẻ 139K",
+    "category": "uu-dai",
+    "price": 139000,
+    "original_price": 159000,
+    "description": "Xô 12 Gà Miếng Tenders (Giá Ưu Đãi)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/FS-BUCKET12TE.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2947",
+    "name": "Xô Zòn Zã 179K",
+    "category": "uu-dai",
+    "price": 179000,
+    "original_price": null,
+    "description": "Xô 5 Miếng Gà",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/BUCKET-5-COB_HDE.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2948",
+    "name": "Xô Zui Zẻ 159K",
+    "category": "uu-dai",
+    "price": 159000,
+    "original_price": null,
+    "description": "Xô 12 Gà Miếng Tenders",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/BUCKET-12-TENDERS_HDE.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2943",
+    "name": "Xô Hợp Cạ 189k",
+    "category": "uu-dai",
+    "price": 189000,
+    "original_price": 239000,
+    "description": "Xô 5 Miếng Gà + 1 Khoai Tây Chiên (Vừa) + 2 ly Pepsi (Vừa)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/BUCKET-CBO-189K_HDE.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2944",
+    "name": "Xô Cùng Tiệc 269k",
+    "category": "uu-dai",
+    "price": 269000,
+    "original_price": 404000,
+    "description": "Xô 9 Miếng Gà + 3 ly Pepsi (Vừa)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/BUCKET-CBO-269K_HDE.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2872",
+    "name": "Combo Tiêu Tung Chill 85k",
+    "category": "uu-dai",
+    "price": 85000,
+    "original_price": null,
+    "description": "1 Miếng Gà Rán + 1 Miếng Gà Lắc Tiêu Chanh + 1 ly Pepsi Không Đường (Đại)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/TIEUTUNGCHILL.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2873",
+    "name": "Combo Chanh Sang Chảnh 140k",
+    "category": "uu-dai",
+    "price": 140000,
+    "original_price": null,
+    "description": "2 Miếng Gà Lắc Tiêu Chanh + 1 Miếng Gà Rán + 1 Khoai Tây Chiên (Vừa) + 2 ly Pepsi Không Đường (Vừa)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/CHANHSANGCHANH.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2875",
+    "name": "Combo Gà Rôm Rả 245k",
+    "category": "uu-dai",
+    "price": 245000,
+    "original_price": null,
+    "description": "3 Miếng Gà Lắc Tiêu Chanh + 3 Miếng Gà Rán + 3 ly Pepsi Không Đường (Vừa)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/GAKHUAYDAO.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2874",
+    "name": "Combo Gà Rôm Rả 245k",
+    "category": "uu-dai",
+    "price": 245000,
+    "original_price": null,
+    "description": "3 Miếng Gà Lắc Tiêu Chanh + 3 Miếng Gà Rán + 3 ly Pepsi Không Đường (Vừa) + Tặng 1 Vé KFC Zestival (Khu Khuấy Đảo)_SỐ LƯỢNG CÓ HẠN",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/GAKHUAYDAO-2.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2949",
+    "name": "Combo Cùng Vui",
+    "category": "uu-dai",
+    "price": 199000,
+    "original_price": 210000,
+    "description": "Combo 6 Miếng Gà Rán. Tặng kèm 3 lon Pepsi",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/CUNGVUI-JULY.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2950",
+    "name": "Combo Cùng \"Dzô\"",
+    "category": "uu-dai",
+    "price": 369000,
+    "original_price": 444000,
+    "description": "Combo 12 Miếng Gà Rán. Tặng kèm 4 ly Pepsi (Đại)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/CUNGDZO-JULY.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2877",
+    "name": "1 Miếng Gà Lắc Tiêu Chanh",
+    "category": "mon-moi",
+    "price": 40000,
+    "original_price": null,
+    "description": "1 Miếng Gà Lắc Tiêu Chanh",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/1TIEUCHANH.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2878",
+    "name": "2 Miếng Gà Lắc Tiêu Chanh",
+    "category": "mon-moi",
+    "price": 79000,
+    "original_price": null,
+    "description": "2 Miếng Gà Lắc Tiêu Chanh",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/2TIEUCHANH.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2879",
+    "name": "3 Miếng Gà Lắc Tiêu Chanh",
+    "category": "mon-moi",
+    "price": 116000,
+    "original_price": null,
+    "description": "3 Miếng Gà Lắc Tiêu Chanh",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/3TIEUCHANH.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2868",
+    "name": "1 Cơm Gà Lắc Tiêu Chanh",
+    "category": "mon-moi",
+    "price": 52000,
+    "original_price": null,
+    "description": "1 Cơm Gà Lắc Tiêu Chanh",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/COMGA-TIEUCHANH.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2562",
+    "name": "Khoai Lắc Phô Mai (L)",
+    "category": "mon-moi",
+    "price": 32000,
+    "original_price": null,
+    "description": "Khoai tây chiên giòn tan, lắc đều cùng phô mai thơm ngậy, cho vị ngon xuất shake!!!",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/KHOAI-PHO-MAI-ALC.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2563",
+    "name": "Khoai Lắc Bơ Tỏi (L)",
+    "category": "mon-moi",
+    "price": 32000,
+    "original_price": null,
+    "description": "Khoai tây chiên giòn tan, lắc đều cùng bơ tỏi thơm lừng, cho vị ngon xuất shake!!!",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/KHOAI-BO-TOI-ALC.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2564",
+    "name": "Gà Popcorn Lắc Phô Mai ( R)",
+    "category": "mon-moi",
+    "price": 42000,
+    "original_price": null,
+    "description": "Gà Popcorn giòn rụm, lắc đều cùng phô mai thơm ngậy, cho vị ngon xuất shake!!!",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/GA-LAC-PHO-MAI-ALC.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2565",
+    "name": "Gà  Popcorn Lắc Bơ Tỏi ( R)",
+    "category": "mon-moi",
+    "price": 42000,
+    "original_price": null,
+    "description": "Gà Popcorn giòn rụm, lắc đều cùng bơ tỏi thơm lừng, cho vị ngon xuất shake!!!",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/GA-LAC-BO-TOI-ALC.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2454",
+    "name": "1 Miếng Gà Xốt Mắm Tỏi",
+    "category": "mon-moi",
+    "price": 40000,
+    "original_price": null,
+    "description": "Gà rán giòn tan, quyện thêm xốt mắm tỏi đậm đà, cay cay, ngọt ngọt, thơm nồng nàn từ tỏi và ớt.",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/1GXMT.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2455",
+    "name": "2 Miếng Gà Xốt Mắm Tỏi",
+    "category": "mon-moi",
+    "price": 79000,
+    "original_price": null,
+    "description": "Gà rán giòn tan, quyện thêm xốt mắm tỏi đậm đà, cay cay, ngọt ngọt, thơm nồng nàn từ tỏi và ớt.",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/2GXMT.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2456",
+    "name": "3 Miếng Gà Xốt Mắm Tỏi",
+    "category": "mon-moi",
+    "price": 116000,
+    "original_price": null,
+    "description": "Gà rán giòn tan, quyện thêm xốt mắm tỏi đậm đà, cay cay, ngọt ngọt, thơm nồng nàn từ tỏi và ớt.",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/3GXMT.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2483",
+    "name": "1 Phần Cơm Gà Xốt Mắm Tỏi",
+    "category": "mon-moi",
+    "price": 52000,
+    "original_price": null,
+    "description": "Gà rán giòn tan, quyện thêm xốt mắm tỏi đậm đà, cay cay, ngọt ngọt, thơm nồng nàn từ tỏi và ớt ăn kèm cơm nóng dẻo.",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/COM-GXMT.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2797",
+    "name": "Combo 1 Miếng Gà",
+    "category": "combo-1-nguoi",
+    "price": 59000,
+    "original_price": null,
+    "description": "1 Miếng gà + 1 Khoai tây chiên (Vừa) + 1 Ly Pepsi (tiêu chuẩn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/D-CHICKEN-1.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2798",
+    "name": "Combo Một Mình Chill",
+    "category": "combo-1-nguoi",
+    "price": 91000,
+    "original_price": null,
+    "description": "1 Miếng gà + 1 Mì ý xúc xích + 1 Khoai tây chiên (Vừa) + 1 Ly Pepsi (tiêu chuẩn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/EC.CBO-1COB-Pasta.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2799",
+    "name": "Combo 2 Miếng Gà",
+    "category": "combo-1-nguoi",
+    "price": 91000,
+    "original_price": null,
+    "description": "2 Miếng gà + 1 Khoai tây chiên (vừa) + 1 Ly Pepsi (tiêu chuẩn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/D-CHICKEN-2.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2800",
+    "name": "Combo Mỳ Ý Solo",
+    "category": "combo-1-nguoi",
+    "price": 71000,
+    "original_price": null,
+    "description": "1 Mì ý gà rán + 1 Ly Pepsi (tiêu chuẩn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/EC.CBO-1-Pasta-COB.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2801",
+    "name": "Combo Mì Ý & Gà Tenders",
+    "category": "combo-1-nguoi",
+    "price": 79000,
+    "original_price": null,
+    "description": "1 Mì ý xúc xích + 3 Tender + 1 Ly Pepsi (tiêu chuẩn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/EC.CBO-Pasta-Tender.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2802",
+    "name": "Combo Cơm Gà Rán Solo",
+    "category": "combo-1-nguoi",
+    "price": 56000,
+    "original_price": null,
+    "description": "1 Cơm Gà rán + 1 Ly Pepsi (tiêu chuẩn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/EC.CBO-RICE-COB.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2803",
+    "name": "Combo Cơm Gà Rán & Súp",
+    "category": "combo-1-nguoi",
+    "price": 69000,
+    "original_price": null,
+    "description": "1 Cơm Gà rán + 1 Súp rong biển + 1 Ly Pepsi (tiêu chuẩn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/EC.CBO-Rice-Soup.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2804",
+    "name": "Combo Cơm Gà Quay Solo",
+    "category": "combo-1-nguoi",
+    "price": 59000,
+    "original_price": null,
+    "description": "1 Cơm Gà quay + 1 Ly Pepsi (tiêu chuẩn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/EC.CBO-RICE-FLAVA.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2805",
+    "name": "Combo Cơm Gà Nanban Solo",
+    "category": "combo-1-nguoi",
+    "price": 46000,
+    "original_price": null,
+    "description": "1 Cơm Gà nanban + 1 Ly Pepsi (tiêu chuẩn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/EC.CBO-RICE-NANBAN.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2806",
+    "name": "Combo Burger Zinger",
+    "category": "combo-1-nguoi",
+    "price": 79000,
+    "original_price": null,
+    "description": "1 Burger zinger + 1 Khoai tây chiên (vừa) + 1 Ly Pepsi (tiêu chuẩn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/D-B.ZINGER-FF.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2808",
+    "name": "Combo Burger Tôm",
+    "category": "combo-1-nguoi",
+    "price": 69000,
+    "original_price": null,
+    "description": "1 Burger tôm + 1 Khoai tây chiên (vừa) + 1 Ly Pepsi (tiêu chuẩn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/EC.CBO-B.Shrimp.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2825",
+    "name": "Combo Burger Gà Quay",
+    "category": "combo-1-nguoi",
+    "price": 79000,
+    "original_price": null,
+    "description": "1 Burger gà quay +  1 Khoai tây chiên (vừa) + 1 Ly Pepsi (tiêu chuẩn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/DB-ROASTED-FF.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2810",
+    "name": "Combo Nhóm 2 No Nê",
+    "category": "combo-nhom",
+    "price": 169000,
+    "original_price": null,
+    "description": "4 Miếng gà + 1 Khoai tây chiên (vừa) + 2 Ly Pepsi (tiêu chuẩn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/D.BUCKET4_FF.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2811",
+    "name": "Combo Nhóm 3 Tụ Tập",
+    "category": "combo-nhom",
+    "price": 239000,
+    "original_price": null,
+    "description": "5 Miếng gà + 1 Gà viên (Vừa) + 3 Ly Pepsi (tiêu chuẩn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/EC.Bucket-5-COB.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2812",
+    "name": "Combo Burger Gà Yo & Gà Rán",
+    "category": "combo-nhom",
+    "price": 129000,
+    "original_price": null,
+    "description": "1 Burger gà yo + 2 Miếng gà rán + 1 Khoai tây chiên (vừa) + 2 Ly Pepsi (vừa)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/EC.CBO-B.GaYo-COB_.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2813",
+    "name": "Combo Nhóm 2 Vui Vẻ",
+    "category": "combo-nhom",
+    "price": 159000,
+    "original_price": null,
+    "description": "3 Miếng gà rán + 1 Mì ý gà viên + 1 Khoai tây chiên (vừa) + 2 Ly Pepsi (tiêu chuẩn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/EC.Bucket-3-COB.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2814",
+    "name": "Combo Hai Mình Chill",
+    "category": "combo-nhom",
+    "price": 146000,
+    "original_price": null,
+    "description": "2 Mì ý xúc xích + 2 Miếng gà rán + 1 Khoai tây chiên (vừa) + 2 Ly Pepsi (tiêu chuẩn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/EC.CBO-2-Pasta-COB.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2815",
+    "name": "Combo Gà Chill 199k",
+    "category": "combo-nhom",
+    "price": 199000,
+    "original_price": null,
+    "description": "3 Miếng gà rán + 2 Mì ý xúc xích + 1 Khoai tây chiên (vừa) + 3 Ly Pepsi (tiêu chuẩn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/EC.CBO-3COB-199K.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2816",
+    "name": "Combo Gà No 279k",
+    "category": "combo-nhom",
+    "price": 279000,
+    "original_price": null,
+    "description": "4 Miếng gà rán + 2 Burger zinger + 1 Khoai tây chiên (vừa) + 4 Ly Pepsi (tiêu chuẩn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/EC.CBO-4COB-279K.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2743",
+    "name": "1 Miếng Gà Rán",
+    "category": "ga-ran-ga-quay",
+    "price": 37000,
+    "original_price": null,
+    "description": "1 Miếng Gà Rán + 1 Gói tương (cà/ ớt)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/1-Fried-Chicken.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2744",
+    "name": "2 Miếng Gà Rán",
+    "category": "ga-ran-ga-quay",
+    "price": 74000,
+    "original_price": null,
+    "description": "2 Miếng Gà Rán + 2 Gói tương (cà/ ớt)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/2-Fried-Chicken.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2745",
+    "name": "3 Miếng Gà Rán",
+    "category": "ga-ran-ga-quay",
+    "price": 105000,
+    "original_price": null,
+    "description": "3 Miếng Gà Rán + 3 Gói tương (cà/ ớt)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/3-Fried-Chicken.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2746",
+    "name": "6 Miếng Gà Rán",
+    "category": "ga-ran-ga-quay",
+    "price": 210000,
+    "original_price": null,
+    "description": "6 Miếng Gà Rán + 6 Gói tương (cà/ ớt)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/6-Fried-Chicken-new.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2747",
+    "name": "1 Miếng Phi-lê Gà Quay",
+    "category": "ga-ran-ga-quay",
+    "price": 43000,
+    "original_price": null,
+    "description": "1 Miếng Phi-lê Gà Quay",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/MOD-PHI-LE-GA-QUAY.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2748",
+    "name": "3 Miếng Gà Rán Tender",
+    "category": "ga-ran-ga-quay",
+    "price": 42000,
+    "original_price": null,
+    "description": "3 Miếng Gà Rán Tender + 1 Gói tương (cà/ ớt)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/TENDERS-3.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2749",
+    "name": "5 Miếng Gà Rán Tender",
+    "category": "ga-ran-ga-quay",
+    "price": 68000,
+    "original_price": null,
+    "description": "5 Miếng Gà Rán Tender + 2 Gói tương (cà/ ớt)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/TENDERS-5.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2750",
+    "name": "Burger Gà Yo",
+    "category": "burger-com-mi-y",
+    "price": 30000,
+    "original_price": null,
+    "description": "1 phần Burger Gà Yo (cay)/1 phần Burger Gà Yo (không cay)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/BURGER-GAYO.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2751",
+    "name": "Burger Phi-lê Gà Quay",
+    "category": "burger-com-mi-y",
+    "price": 56000,
+    "original_price": null,
+    "description": "1 Burger Phi-lê Gà Quay + 1 Gói tương (cà/ ớt)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/Burger-Flava.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2898",
+    "name": "Burger Tôm",
+    "category": "burger-com-mi-y",
+    "price": 45000,
+    "original_price": null,
+    "description": "1 Burger Tôm + 1 Gói tương (cà/ ớt)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/Burger-Shrimp.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2899",
+    "name": "Burger Gà Zinger",
+    "category": "burger-com-mi-y",
+    "price": 56000,
+    "original_price": null,
+    "description": "1 Burger Gà Zinger + 1 Gói tương (cà/ ớt)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/Burger-Zinger.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2754",
+    "name": "Mì Ý Xúc Xích Gà",
+    "category": "burger-com-mi-y",
+    "price": 38000,
+    "original_price": null,
+    "description": "1 Mì Ý Xúc Xích Gà",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/Sausage-Pasta.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2755",
+    "name": "Mì Ý Gà Viên",
+    "category": "burger-com-mi-y",
+    "price": 43000,
+    "original_price": null,
+    "description": "1 Mì Ý Gà Viên",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/Sausage-Pasta-Popcorn.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2756",
+    "name": "Mì Ý Gà Rán",
+    "category": "burger-com-mi-y",
+    "price": 68000,
+    "original_price": null,
+    "description": "1 Mì Ý Gà Rán + 1 Gói tương (cà/ ớt)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/Sausage-Pasta-COB.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2757",
+    "name": "1 Cơm Gà Rán",
+    "category": "burger-com-mi-y",
+    "price": 49000,
+    "original_price": null,
+    "description": "1 Cơm Gà Rán + 1 Gói tương (cà/ ớt)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/Rice-OR.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2758",
+    "name": "1 Cơm Gà Viên Nanban",
+    "category": "burger-com-mi-y",
+    "price": 40000,
+    "original_price": null,
+    "description": "1 Cơm Gà Viên Nanban + 1 Gói tương (cà/ ớt)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/NANBAN.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2759",
+    "name": "1 Cơm Phi-lê Gà Quay",
+    "category": "burger-com-mi-y",
+    "price": 54000,
+    "original_price": null,
+    "description": "1 Cơm Phi-lê Gà Quay + 1 Gói tương (cà/ ớt)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/Rice-Flava.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2760",
+    "name": "Salad Xốt Mè Rang",
+    "category": "thuc-an-nhe",
+    "price": 22000,
+    "original_price": null,
+    "description": "1 Salad Xốt Mè Rang",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/SALAD-XOT-ME-RANG.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2761",
+    "name": "Salad Hạt Gà Viên",
+    "category": "thuc-an-nhe",
+    "price": 37000,
+    "original_price": null,
+    "description": "1 Salad Hạt Gà Viên",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/SALAD-HAT-GA-VIEN.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2762",
+    "name": "4 Phô Mai Viên",
+    "category": "thuc-an-nhe",
+    "price": 38000,
+    "original_price": null,
+    "description": "4 Phô Mai Viên",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/4-Chewy-Cheese.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2763",
+    "name": "6 Phô Mai Viên",
+    "category": "thuc-an-nhe",
+    "price": 53000,
+    "original_price": null,
+    "description": "6 Phô Mai Viên",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/6-Chewy-Cheese.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2764",
+    "name": "Gà Viên Popcorn (Lớn)",
+    "category": "thuc-an-nhe",
+    "price": 67000,
+    "original_price": null,
+    "description": "Gà Viên Popcorn (Lớn) + 2 Gói tương (cà/ ớt)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/POP-L.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2765",
+    "name": "Gà Viên Popcorn (Vừa)",
+    "category": "thuc-an-nhe",
+    "price": 40000,
+    "original_price": null,
+    "description": "Gà Viên Popcorn (Vừa) + 1 Gói tương (cà/ ớt)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/POP-R.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2766",
+    "name": "1 Bắp Cải Trộn (Đại)",
+    "category": "thuc-an-nhe",
+    "price": 32000,
+    "original_price": null,
+    "description": "1 Bắp Cải Trộn (Đại)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/CL-(J)-new.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2767",
+    "name": "1 Bắp Cải Trộn (Lớn)",
+    "category": "thuc-an-nhe",
+    "price": 23000,
+    "original_price": null,
+    "description": "1 Bắp Cải Trộn (Lớn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/CL-(L)-new.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2768",
+    "name": "1 Bắp Cải Trộn (Vừa)",
+    "category": "thuc-an-nhe",
+    "price": 13000,
+    "original_price": null,
+    "description": "1 Bắp Cải Trộn (Vừa)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/CL-(R)-new.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2769",
+    "name": "Khoai Tây Chiên (Đại)",
+    "category": "thuc-an-nhe",
+    "price": 40000,
+    "original_price": null,
+    "description": "Khoai Tây Chiên (Đại) + 2 Gói tương (cà/ ớt)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/FF-J.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2770",
+    "name": "Khoai Tây Chiên (Lớn)",
+    "category": "thuc-an-nhe",
+    "price": 30000,
+    "original_price": null,
+    "description": "Khoai Tây Chiên (Lớn) + 1 Gói tương (cà/ ớt)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/FF-L.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2771",
+    "name": "Khoai Tây Chiên (Vừa)",
+    "category": "thuc-an-nhe",
+    "price": 20000,
+    "original_price": null,
+    "description": "Khoai Tây Chiên (Vừa) + 1 Gói tương (cà/ ớt)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/FF-R.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2772",
+    "name": "Khoai Tây Nghiền (Đại)",
+    "category": "thuc-an-nhe",
+    "price": 32000,
+    "original_price": null,
+    "description": "Khoai Tây Nghiền (Đại)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/MP-(J)-new.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2773",
+    "name": "Khoai Tây Nghiền (Lớn)",
+    "category": "thuc-an-nhe",
+    "price": 23000,
+    "original_price": null,
+    "description": "Khoai Tây Nghiền (Lớn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/MP-(L)-new.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2774",
+    "name": "Khoai Tây Nghiền (Vừa)",
+    "category": "thuc-an-nhe",
+    "price": 13000,
+    "original_price": null,
+    "description": "Khoai Tây Nghiền (Vừa)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/MP-(R)-new.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2775",
+    "name": "Cơm trắng",
+    "category": "thuc-an-nhe",
+    "price": 12000,
+    "original_price": null,
+    "description": "Cơm trắng",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/Rice.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2776",
+    "name": "Súp Rong Biển",
+    "category": "thuc-an-nhe",
+    "price": 20000,
+    "original_price": null,
+    "description": "Súp Rong Biển",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/Soup-Rong-Bien.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2780",
+    "name": "1 Bánh Trứng",
+    "category": "thuc-uong-trang-mieng",
+    "price": 20000,
+    "original_price": null,
+    "description": "1 Bánh Trứng",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/EGGTART-1.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2781",
+    "name": "4 Bánh Trứng",
+    "category": "thuc-uong-trang-mieng",
+    "price": 72000,
+    "original_price": null,
+    "description": "4 Bánh Trứng",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/EGGTART-4.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2782",
+    "name": "Pepsi (Tiêu Chuẩn)",
+    "category": "thuc-uong-trang-mieng",
+    "price": 13000,
+    "original_price": null,
+    "description": "1 Ly Pepsi (Tiêu Chuẩn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/PEPSI-STD.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2783",
+    "name": "Pepsi (Vừa)",
+    "category": "thuc-uong-trang-mieng",
+    "price": 17000,
+    "original_price": null,
+    "description": "1 Ly Pepsi (Vừa)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/PEPSI-M.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2784",
+    "name": "Pepsi (Đại)",
+    "category": "thuc-uong-trang-mieng",
+    "price": 20000,
+    "original_price": null,
+    "description": "1 Ly Pepsi (Lớn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/PEPSI-J.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2785",
+    "name": "7Up (Tiêu Chuẩn)",
+    "category": "thuc-uong-trang-mieng",
+    "price": 13000,
+    "original_price": null,
+    "description": "1 Ly 7Up (Vừa)/ (Tiêu Chuẩn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/7UP-STD.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2786",
+    "name": "7Up (Vừa)",
+    "category": "thuc-uong-trang-mieng",
+    "price": 17000,
+    "original_price": null,
+    "description": "1 Ly 7Up (Vừa)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/7UP-R.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2787",
+    "name": "7Up (Đại)",
+    "category": "thuc-uong-trang-mieng",
+    "price": 20000,
+    "original_price": null,
+    "description": "1 Ly 7Up (Lớn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/7UP-L.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2788",
+    "name": "Lipton (Tiêu Chuẩn)",
+    "category": "thuc-uong-trang-mieng",
+    "price": 13000,
+    "original_price": null,
+    "description": "1 Ly Lipton (Tiêu Chuẩn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/LIPTON-STD.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2789",
+    "name": "Lipton (Vừa)",
+    "category": "thuc-uong-trang-mieng",
+    "price": 17000,
+    "original_price": null,
+    "description": "1 Ly Lipton (Vừa)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/LIPTON-M.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2790",
+    "name": "Lipton (Đại)",
+    "category": "thuc-uong-trang-mieng",
+    "price": 20000,
+    "original_price": null,
+    "description": "1 Ly Lipton (Lớn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/LIPTON-J.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2791",
+    "name": "Pepsi Không Đường (Tiêu Chuẩn)",
+    "category": "thuc-uong-trang-mieng",
+    "price": 13000,
+    "original_price": null,
+    "description": "1 Ly Pepsi Không Đường (Tiêu Chuẩn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/PEPSI-ZERO-STD.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2792",
+    "name": "Pepsi Không Đường (Vừa)",
+    "category": "thuc-uong-trang-mieng",
+    "price": 17000,
+    "original_price": null,
+    "description": "1 Ly Pepsi Không Đường (Vừa)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/PEPSI-ZERO-M.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2793",
+    "name": "Pepsi Không Đường (Đại)",
+    "category": "thuc-uong-trang-mieng",
+    "price": 20000,
+    "original_price": null,
+    "description": "1 Ly Pepsi Không Đường (Lớn)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/PEPSI-ZERO-J.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2794",
+    "name": "Pepsi (Lon)",
+    "category": "thuc-uong-trang-mieng",
+    "price": 20000,
+    "original_price": null,
+    "description": "1 Pepsi (Lon)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/PEPSI_CAN.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2795",
+    "name": "7Up (Lon)",
+    "category": "thuc-uong-trang-mieng",
+    "price": 20000,
+    "original_price": null,
+    "description": "1 7Up (Lon)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/7UP_CAN.jpg?v=4lmbjg",
+    "aliases": []
+  },
+  {
+    "item_id": "kfc-2796",
+    "name": "Pepsi Không Đường (Lon)",
+    "category": "thuc-uong-trang-mieng",
+    "price": 20000,
+    "original_price": null,
+    "description": "1 Pepsi Không Đường (Lon)",
+    "image_url": "https://static.kfcvietnam.com.vn/images/items/lg/Pepsi-Zero-Can-ALC.jpg?v=4lmbjg",
+    "aliases": []
+  }
+]
